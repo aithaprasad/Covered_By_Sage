@@ -26,8 +26,7 @@ A package provide an abstraction between multiple email service providers. If on
 
 Currently supported:
 
-Mailgun
-SendGrid.
+Mailgun, SendGrid.
 
 Used API's to integrate with respective service vendors.
 Then used promises(resolve and reject) to know whether the response is success or not such that if it fails then it assigns the work to another email service vendor. 
