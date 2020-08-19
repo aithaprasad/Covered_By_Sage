@@ -24,9 +24,7 @@ Note: I am using free account I can host it for limited amount of time.
 
 A package provide an abstraction between multiple email service providers. If one of the services goes down, it will failover to another provider.
 
-Currently supported:
-
-Mailgun, SendGrid.
+Currently supported: Mailgun, SendGrid.
 
 Used API's to integrate with respective service vendors.
 Then used promises(resolve and reject) to know whether the response is success or not such that if it fails then it assigns the work to another email service vendor. 
